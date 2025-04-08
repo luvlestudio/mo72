@@ -46,22 +46,22 @@ window.onload = () => {
     Kakao.Share.sendDefault({
       objectType: "feed",
       content: {
-        title: "경훈 ♥ 은지의 모바일 청첩장",
-        description: "2025년 6월 7일 토요일♡",
+        title: "승연 ♥ 하린의 모바일 청첩장",
+        description: "2025년 5월 24일 토요일♡",
         imageUrl: "https://i.imgur.com/75T9hC4.png",
         imageWidth: 1200,
         imageHeight: 630,
         link: {
-          mobileWebUrl: "https://mo74.luvle.kr",
-          webUrl: "https://mo74.luvle.kr",
+          mobileWebUrl: "https://mo72.luvle.kr",
+          webUrl: "https://mo72.luvle.kr",
         },
       },
       buttons: [
         {
           title: "자세히 보기",
           link: {
-            mobileWebUrl: "https://mo74.luvle.kr",
-            webUrl: "https://mo74.luvle.kr",
+            mobileWebUrl: "https://mo72.luvle.kr",
+            webUrl: "https://mo72.luvle.kr",
           },
         },
       ],
