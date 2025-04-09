@@ -48,7 +48,7 @@ window.onload = () => {
       content: {
         title: "승연 ♥ 하린의 모바일 청첩장",
         description: "2025년 5월 24일 토요일♡",
-        imageUrl: "https://i.imgur.com/75T9hC4.png",
+        imageUrl: "https://i.imgur.com/GEbe3Dc.png",
         imageWidth: 1200,
         imageHeight: 630,
         link: {
