@@ -343,7 +343,7 @@
       <!-- map 길찾기 -->
       <div class="animate-on-scroll" id="MapIconDiv" style="background-color: #A7C4E3;">
         <div>
-          <a class="maplink" href="https://kko.kakao.com/_wVqFzIuvG">
+          <a class="maplink">
             <div>
               <button id="kakaoMapButton" type="button">
                 <!-- <img
@@ -357,6 +357,18 @@
           </a>
         </div>
       </div>
+      <script>
+        const mapLinkEl = document.querySelector(".maplink");
+        mapLinkEl.addEventListener("click", () => { 
+          const userAgent = navigator.userAgent.toLowerCase();
+  
+          if (userAgent.indexOf('iphone') > -1) {
+            window.location.href = "kakaomap://place?id=27546817"
+          } else {
+            window.location.href = "https://kko.kakao.com/_wVqFzIuvG";
+          }
+        });
+      </script>
 
       <!-- 이동수단 정보 -->
       <div class="animate-on-scroll">
